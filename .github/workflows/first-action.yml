@@ -1,10 +1,10 @@
-name: Workflow
+name: first-action
 on: workflow_dispatch
 jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
       - name: print good morning
-        run: echo "Hello from Workflow"
+        run: echo "Hello from first-action.yml"
       - name: print good bye
-        run: echo "Goodbye from Workflow"
+        run: echo "Goodbye from first-action.yml"
