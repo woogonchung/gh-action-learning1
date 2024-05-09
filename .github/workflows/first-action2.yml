@@ -1,11 +1,11 @@
-name: First Action
+name: first-action2
 on: workflow_dispatch
 jobs:
   first-job:
     runs-on: ubuntu-20.04
     steps:
       - name: Print Good morning
-        run: echo "Good Morining"
+        run: echo "Good Morining from first-action2"
       - name: Print Good Bye
-        run: echo "Good Bye"
+        run: echo "Good Bye from first-action2"
 
